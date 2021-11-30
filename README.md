@@ -18,6 +18,9 @@ The count statistic in TOF is dominated by Gaussian noise for the background and
 Both statistics overlap in a regular mass spectrum, but once the peaks are cleaned from the Gaussian noise, 
 the Poisson statistic can provide a good estimate of the ions producing the signal. 
 
+![screenshot](https://github.com/andrey101010/Femtosecond_Mass_Spectrometry/blob/2a7df919bfff97cf6a2b29e0024f1dec07f905f8/2019-09-15%20ion%20count%20analysis%20raw%20data,%20baseline%20correction%20and%20filtered%20data.png)
+*Data processing of bradykinin signal. A) A data set of several unprocessed mass spectra. Dots of the same color indicate the same mass spectrum. Dots of different colors are arranged in vertical stacks, indicating a bin unit. B) Baseline correction is performed. C) Additional filtering is applied to filter outliers. D) Each mass spectrums integral is divided by the mean mass spectrum integral. The ratio is then used to weigh the bradykinin signal for greater comparability.* 
+
 In our approach we assume the fact that a low number of ions is causing high voltage fluctuation and vice versa. 
 These fluctuation can be expressed in sample standard deviations ultimately revealing the relationship between voltage intensity triggered by a single ion.
 
